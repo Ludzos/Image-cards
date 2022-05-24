@@ -3,7 +3,7 @@ PROJECT NAME
 ***IMAGE-CARDS***
 
 This application is a recreaction of a Figma design. An application that retrieves user data from an API (https://randomuser.me/api/?results=50.).
-Display's image cards for every user with name, avatar, city.
+App display's image cards for every user with name, avatar, city.
 
 ***************************************************************
 
