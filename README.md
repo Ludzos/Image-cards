@@ -23,7 +23,9 @@ To Start Server:
 
 `npm start`
 
-Open http://localhost:3000 to view it in your browser. 
+To Visit App:
+
+`http://localhost:3000` 
 
 ***************************************************************
 
