@@ -13,7 +13,7 @@ App was used with create-react-app boilerplate.
 
 Installation:
 
-Open command terminal in VScode or locally via your desktop. Navigate to app folder. 
+Clone down this repository. You will need `npm` installed globally on your machine.
 
 Installation:
 
