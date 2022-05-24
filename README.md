@@ -51,3 +51,5 @@ Implemented features & functionality:
 Additional bugs: 
 *There's a square showing on the right side of the avatar. This square appears both for the grid and list cards. Not sure if it's due to the design itself or-
  if it only appears after you export the design.  
+
+![Figma](https://user-images.githubusercontent.com/88338317/170103302-fdfc44e5-40b1-49a6-8c39-ed95f6e68351.jpg)
