@@ -43,13 +43,13 @@ Implemented features & functionality:
 
 (Uncompleted)
 * Search by name works partially. Sometimes it finds the user and filters out the rest and other times it wont.
-  I believe the reason is for this is that the retrieved user data changes/updates during search.
-* Listview for mobile is not responsive. Card clips out from the right side. (Tried to solve through different ways wihout any luck)
+  I believe the reason for this is that the retrieved user data changes/updates during search.
+* Listview for mobile is not responsive. Card clips out from the right side. Tried to solve this through different ways wihout any luck :( . 
 * Maximize accessibility through HTML and WAI-ARIA (Not yet done)
 * Unit testing for the major functionalities (Not yet done)
 
-Additional bugs: 
-*There's a square showing on the right side of the avatar. This square appears on all cards, both grid and list designs are affected by this. Not sure if it's due to the design itself or if it only appears after you export the design.  
+Bugs: 
+*There's a square showing on the right side of the avatar (See attached picture below). This square appears on all cards, both grid and list designs are affected by this. Not sure if it's due to the design itself or if it only appears after you export the design.  
 
 ![random](https://user-images.githubusercontent.com/88338317/170104132-e1498403-c686-48d6-9cce-8c880bc5e45b.jpg)
 
