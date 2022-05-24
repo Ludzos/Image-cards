@@ -15,11 +15,13 @@ Installation:
 
 Open command terminal in VScode or locally via your desktop. Navigate to app folder. 
 
-### npm install
+Installation:
+
+`npm install`
 
 To Start Server:
 
-### npm start
+`npm start`
 
 Open http://localhost:3000 to view it in your browser. 
 
