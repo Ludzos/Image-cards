@@ -49,5 +49,5 @@ Implemented features & functionality:
 * Unit testing for the major functionalities (Not yet done)
 
 Additional bugs: 
-*There's a square showing on the right side of the avatar. This square appears both for the grid and list cards. Not sure if it has to do with the design itself or-
- if it only appears after you download the SVG's.  
+*There's a square showing on the right side of the avatar. This square appears both for the grid and list cards. Not sure if it's due to the design itself or-
+ if it only appears after you export the design.  
