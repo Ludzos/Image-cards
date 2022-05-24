@@ -43,7 +43,7 @@ Implemented features & functionality:
 
 (Uncompleted)
 * Search by name works partially. Sometimes it finds the user and filters out the rest and other times it wont.
-  I believe reason is for this is that the retrieved user data changes/updates during search.
+  I believe the reason is for this is that the retrieved user data changes/updates during search.
 * Listview for mobile is not responsive. Card clips out from the right side. (Tried to solve through different ways wihout any luck)
 * Maximize accessibility through HTML and WAI-ARIA (Not yet done)
 * Unit testing for the major functionalities (Not yet done)
