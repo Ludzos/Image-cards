@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+PROJECT NAME
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+***IMAGE-CARDS***
 
-## Available Scripts
+This application is a recreaction of a Figma design. An application that retrives user data from an API (https://randomuser.me/api/?results=50.).
+Display's image cards for every user with name, avatar, city.
 
-In the project directory, you can run:
+***************************************************************
 
-### `npm start`
+INSTALLATION & SETUP INSTRUCTIONS 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+App was used with create-react-app boilerplate. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Installation:
 
-### `npm test`
+Open command terminal in VScode or locally via your desktop. Navigate to app folder. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### npm install
 
-### `npm run build`
+To Start Server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open http://localhost:3000 to view it in your browser. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+***************************************************************
 
-### `npm run eject`
+PROJECT STATUS
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Implemented features & functionality: 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+(Completed)
+* Switch between grid and list view
+* Sorting by name (ascending and descending) 
+* lazy loading of the cards
+* Error states
+* Loader icon while loading
+* Infinite scroll
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+(Uncompleted)
+* Search by name works partially. Sometimes it finds the user and filters out the rest and other times it wont.
+- I believe it's because user data changes during search.
+* Listview for mobile is not responsive. Card clips out from the right side. (Tried to solve through different ways wihout any luck)
+* Maximize accessibility through HTML and WAI-ARIA (Not yet done)
+* Unit testing for the major functionalities (Not yet done)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Additional bugs: 
+*There's a square showing on the right side of the avatar. This square appears both for the grid and list cards. Not sure if it has to do with the design itself or-
+ if it only appears after you download the SVG's.  

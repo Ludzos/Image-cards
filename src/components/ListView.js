@@ -6,22 +6,26 @@ import Orange from '../Assets/ListCard/Orange.svg';
 import Mail from '../Assets/Icons/Mail.svg'
 import Phone from '../Assets/Icons/Phone.svg'
 
-function ListView({ userData }) { 
 
 
+function ListView({ userData, index}) { 
+
+  // Array with SVG images
   const cardImages = [Green, Brown, Orange, Brown, Orange, Green];
 
-  const randomItem = cardImages[Math.floor(Math.random()*cardImages.length)];
-
-  // const colorCards = cardImages.map(image  => <div> { image } </div>)
-
+  // Function to render SVG images
+  const getBackgroundImage = (index) => cardImages[index % cardImages.length]
 
  
-  return (
-    
-        <div className="list-card" style={{backgroundImage: `url(${randomItem})`}}>
+ 
+  return ( 
+  
+        <div className="list-card" style={{backgroundImage: `url(${getBackgroundImage(index)})`}}>
+
           <div className="list-card-wrapper">
-            <div className="list-user-image"><img  src={userData.picture.medium} alt=""/></div>
+            <div className="list-user-image">            
+              <img  src={userData.picture.medium} alt=""/>
+            </div>
 
             <div className="list-user-info">
               <div className="list-user-name">{userData.name.first} {userData.name.last}</div>          
@@ -35,9 +39,10 @@ function ListView({ userData }) {
         </div>
       
     </div>
-    
+  
 
-  )
+  );
+
 }
 
-export default ListView
+export default ListView;

@@ -5,22 +5,23 @@
 }
 
 
-
 .list-card-wrapper {
     display: flex;
     justify-content:left;
     align-items: center;
-    width: 100%;
-      
+    width: 100%;      
 }
+
 
 .list-user-info {
     width: 150px;
 }
 
+
 .list-user-image {
     margin-left: 50px;
 }
+
 
 .list-user-image > img {
     border-radius: 50%;
@@ -29,8 +30,8 @@
     height: 80px;
     margin-right: 20px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
-
 }
+
 
 .list-user-name {
     font-family: 'Karla';
@@ -40,6 +41,7 @@
     line-height: 21px;
     margin-bottom: 5px;
 }
+
 
 .list-user-location {
     font-family: 'Lato';
@@ -51,26 +53,31 @@
 
 
 .list-user-contact {
-    margin-left: 320px;        
-    
+    margin-left: 320px;            
 }
+
 
 .list-user-contact > img {
     margin: 5px;
 }
 
+
 @media only screen and (max-width:390px) {
     
+   
     .list-card {
-        width: 330px;
-        /* height: 102px; */
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        position:relative; 
+        width: 370px;
+        height: 100px;
         background-repeat: no-repeat;
-        background-size: auto auto;
         /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); */
         /* border-radius: 0 0 50px 20px; */
-        margin-bottom: 10px; 
-        
+        margin-bottom: 10px;         
     }
+
 
     .list-user-image {
         margin-top: 5px;
@@ -79,9 +86,9 @@
     }
 
     .list-user-image > img {
-       box-shadow: drop-shadow(0px 2.5731px 2.5731px rgba(0, 0, 0, 0.2));
-       width: 80px;
-       height: 80px;
+        box-shadow: drop-shadow(0px 2.5731px 2.5731px rgba(0, 0, 0, 0.2));
+        width: 80px;
+        height: 80px;
     }
 
     .list-user-contact {
@@ -91,11 +98,7 @@
         margin-top: 60px;        
         
     }
-    .list-card-wrapper {
-        /* display: flex;
-        grid-column: auto;
-        justify-content: center; */
-    }
+    
 }
 
 

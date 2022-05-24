@@ -1,21 +1,20 @@
 
 
-.nav-container {
+.searchbox {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;    
     width: calc(100% - 38px);
     
-}
+} 
 
 .button-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    margin-bottom: 10px;
-    
+    width: 310px;
+    margin-bottom: 10px;    
 }
 
 .search-wrapper {
@@ -23,7 +22,12 @@
     display: flex;
     align-items: center;
     width: 100%;
+    margin-top: 3px;
     
+}
+
+.search-wrapper > img {
+    margin-top: 3px;
 }
 
 .search-wrapper > input {
@@ -31,62 +35,43 @@
     border: none;
     background: none;
     border-bottom: 2px solid #000000;
-    width: 313.31px;   
-}
-
-.search-wrapper > img {
-    padding-bottom:1px;
-    margin-bottom: 1px;
-}
-
-
-@media only screen and (min-width:790px) {
-
+    width: 313.31px;
+    font-size: 15px;
     
+}
 
-    .nav-container {
+@media only screen and (min-width:790px) {    
+
+
+    .searchbox {
         margin-left: 20px;
+        display: flex;
+        align-items: baseline;
     }
 
 
     .button-wrapper {
-        width: 680px;
-        /* position: absolute; */
-        margin-top: 0;
+        width: 690px;
      }
 
     .search-wrapper {
         position: absolute;
-        padding-left: 10px;
+        margin-left: 25px;
        
     }
 
     .search-box {
         padding-top: 3px;
-    }
-
-    .sortingIcon {
-        /* margin-left: 10px;
-        margin-right: 10px; */
-    }
-
-    .toggle-button {
-
-    }
-    
+    }  
+     
 
 }
 
 @media only screen and (min-width:390px) {
-
-    .nav-container {
-        display: flex;
-        align-items: baseline;
-    }
+    
 
     .search-wrapper {
-        width: 310px;
-        margin-left: 25px;
+        width: 309px; 
         padding-top: 20px;
     }
 
@@ -94,23 +79,17 @@
         border-bottom: 2px solid black;        
         width: 17.58px;
         height: 17.25px;
-        /* padding-bottom: 2px; */
     }
    
 
     .button-wrapper {
-        margin-top: 20px;
-        /* width: 310px; */
+        margin-top: 25px;
     }
 
-    .toggle-button {
-        width: 20px;
-        height: 18.8px;
-    }
-    
+      
     .sortingIcon {
         width: 29.97px;
-        height: 23px;
+        height: 23px;    
       }
     
 }
