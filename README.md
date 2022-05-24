@@ -49,7 +49,7 @@ Implemented features & functionality:
 * Unit testing for the major functionalities (Not yet done)
 
 Additional bugs: 
-*There's a square showing on the right side of the avatar. This square appears on all cards, both grid and list designs are effected by this. Not sure if it's due to the design itself or if it only appears after you export the design.  
+*There's a square showing on the right side of the avatar. This square appears on all cards, both grid and list designs are affected by this. Not sure if it's due to the design itself or if it only appears after you export the design.  
 
 ![random](https://user-images.githubusercontent.com/88338317/170104132-e1498403-c686-48d6-9cce-8c880bc5e45b.jpg)
 
